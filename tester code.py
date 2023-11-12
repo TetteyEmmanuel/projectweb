@@ -16,3 +16,13 @@ def confi_add_even(even_list):
 
 even_list = confidenceDaakye([1,2,3,4,5,6,7,8,9])
 print(confi_add_even(even_list))
+
+
+def daak_add_odd(numbers):
+    add = 0
+    for odd_num in numbers:
+        add += odd_num
+    return add
+
+odd_list = daak_add_odd([1,2,3,4,5,7,9,11])
+print(odd_list)
